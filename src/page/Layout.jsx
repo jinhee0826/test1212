@@ -6,7 +6,9 @@ const Layout = () => {
         <div>
             <NavbarComp />
             <hr />
-            <Outlet />
+            <Outlet
+            // 레이아웃 안 outlet자리에 들어갈 공간을 만들어줌 
+            />
         </div>
         );
 }
